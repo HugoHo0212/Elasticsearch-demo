@@ -1,5 +1,5 @@
 """
-Add the syn
+Add the synonym filter to index and rank the searching result
 """
 
 import data_loading as dl

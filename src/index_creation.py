@@ -1,6 +1,5 @@
 """
-Q1: Create index and load data
-Please fill in the missing content in each function.
+Create index and load data
 """
 
 import assignment4 as a4
@@ -10,7 +9,7 @@ from elasticsearch.client import IndicesClient
 
 def main():
     """
-    The main function, do not change any code here
+    The main function
     """
 
     es = Elasticsearch()
@@ -35,7 +34,7 @@ def count_documents(es: Elasticsearch) -> int:
     int
         The documents count.
     """
-    ### Fill in the code here
+    ### 
     return es.count(index="wikipedia")['count']
 
 
